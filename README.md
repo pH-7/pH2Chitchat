@@ -23,7 +23,7 @@ Pierre-Henry Soria
 
 ## Contact
 
-Contact me at: `pierrehenrysoria {{ AT }} gmail {{ D0T }} com`
+pierrehenrysoria+github {{ AT }} gmail {{ D0T }} com
 
 
 ## License
