@@ -42,6 +42,3 @@ io.sockets.on('connection', function(socket, username) {
 server.listen(process.env.PORT || 3000, ADDRESS, function() {
     console.log("Awesome! pH2Chitchat is running on: %s", ADDRESS + ':' + PORT);
 });
-
-// Expose app
-exports = module.exports = app;
