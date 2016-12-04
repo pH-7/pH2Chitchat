@@ -1,6 +1,6 @@
 /*
- * Author:        Pierre-Henry Soria <ph7software@gmail.com>
- * Copyright:     (c) 2012-2016, Pierre-Henry Soria. All Rights Reserved.
+ * Author:        Pierre-Henry Soria <pierrehenrysoria@gmail.com>
+ * Copyright:     (c) 2016, Pierre-Henry Soria. All Rights Reserved.
  * License:       MIT License
  */
 'use strict';
