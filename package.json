@@ -2,10 +2,6 @@
   "name": "ph2chitchat",
   "version": "1.0.0",
   "description": "The simplest Real-time instantaneous chat using node.js and socket.io (without database)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "chat",
     "realtime",
