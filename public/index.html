@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>The Simplest Realtime Node.js chat</title>
+        <link rel="stylesheet" href="./static/css/style.css" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>pH2Chichat!</h1>
+                <h3>The Simplest Realtime Node.js Chat</h3>
+            </header>
+
+            <form action="/" method="post" id="chat-form">
+                <input type="text" name="message" id="message" placeholder="Your Message" size="50" autofocus="autofocus" />
+                <input type="submit" id="send-message" value="Send!" />
+            </form>
+
+            <section id="chat-window"></section>
+
+            <footer>
+                <p><strong>pH2Chichat</strong> <em>The Simplest Chat</em> &bull; &nbsp; &copy; <a href="http://ph7s.github.io" title="Pierre-Henry's Page">Pierre-Henry Soria</a> <span id="copyrightYear"></span> | All Rights Reserved.</p>
+            </footer>
+            <script>document.getElementById('copyrightYear').innerHTML=(new Date).getFullYear()</script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <script src="/socket.io/socket.io.js"></script>
+            <script src="./static/js/chat.js"></script>
+        </body>
+    </div>
+</html>
