@@ -6,7 +6,8 @@ You can test it easily by using two or more web browsers (or using the incognito
 
 
 ## Usage
-Just run `app.js` with **node.js** (`$ node app.js`).
+First off, install the dependencies for the project `$ npm install`
+After that, run `app.js` with **node.js** (`$ node app.js`).
 
 
 ## Requirement
